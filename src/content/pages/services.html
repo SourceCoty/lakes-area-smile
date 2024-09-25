@@ -1,0 +1,426 @@
+---
+title: 'Services | Code Stitch Web Designs'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'services/'
+eleventyNavigation:
+    key: Services
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/services.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+    <h1 id="home-h">Our Services</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="../assets/images/grass-2-m.jpg">
+        <source media="(min-width: 601px)" srcset="../assets/images/grass-2-l.jpg">
+        <img aria-hidden="true" decoding="async" src="../assets/images/grass-2-l.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+    </picture>
+
+</section>
+
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-30">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">We'll Make Your Dream Landscape a Reality</h2>
+            <p class="cs-text">
+                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar. 
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="../assets/images/retainer-m.jpg">
+                    <source media="(min-width: 601px)" srcset="../assets/images/retainer-l.jpg">
+                    <img loading="lazy" decoding="../assets/images/retainer-l.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Retaining Walls</h3>
+                    <a class="cs-button-solid" aria-label="read more about foyers" href="#retaining-walls">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="../assets/images/edging-m.jpg">
+                    <source media="(min-width: 601px)" srcset="../assets/images/edging-l.jpg">
+                    <img loading="lazy" decoding="../assets/images/edging-l.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Planting & Edging</h3>
+                    <a class="cs-button-solid" aria-label="read more about bathrooms" href="#planting-edging">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="../assets/images/patio-2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="../assets/images/patio-2-l.jpg">
+                    <img loading="lazy" decoding="../assets/images/patio-2-l.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Patios & Walkways</h3>
+                    <a class="cs-button-solid" aria-label="read more about living rooms" href="#patios-walkways">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="../assets/images/fencing-m.jpg">
+                    <source media="(min-width: 601px)" srcset="../assets/images/fencing-l.jpg">
+                    <img loading="lazy" decoding="../assets/images/fencing-l.jpg" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Fencing</h3>
+                    <a class="cs-button-solid" aria-label="read more about kitchens" href="#fencing">Read More</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <a id="fencing"></a>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-456" class="sbs-1">
+    <div class="cs-container">
+        <div class="cs-content">
+            {# <span class="cs-topper">Features</span> #}
+            <h2 class="cs-title">Fencing</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a href="/fencing" class="cs-button-solid">Learn More</a>
+        </div>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="../assets/images/fence-4.jpg">
+            <source media="(min-width: 601px)" srcset="../assets/images/fence-4.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="../assets/images/fence-4.jpg" alt="grass" width="649" height="617">
+        </picture>
+    </div>
+        <a id="retaining-walls"></a>
+</section>    
+
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-457" class="sbsr-1">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Retaining Walls</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a href="/retaining-walls" class="cs-button-solid">Learn More</a>
+        </div>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="../assets/images/retaining-wall-5.jpg">
+            <source media="(min-width: 601px)" srcset="../assets/images/retaining-wall-5.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="../assets/images/retaining-wall-5.jpg" alt="grass" width="649" height="617">
+        </picture>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="stats-340-1112">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/person2-gold.svg" alt="icon" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">3</span>
+                <span class="cs-desc">Expert Landscapers</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/mop-gold.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">300+</span>
+                <span class="cs-desc">Projects Completed</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/thumbs-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">150+</span>
+                <span class="cs-desc">5 Star Reviews</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/award2-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">A+</span>
+                <span class="cs-desc">BBB Rating</span>
+            </div>
+        </li>
+    </ul>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="../../assets/images/landing-m.jpg">
+        <source media="(min-width: 601px)" srcset="../../assets/images/landing-l.jpg">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="../../assets/images/landing-l.jpg" alt="mechanic" width="1920" height="283">
+    </picture>
+    <a id="patios-walkways"></a>
+</div>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-456" class="sbs-2">
+    <div class="cs-container">
+        <div class="cs-content">
+            {# <span class="cs-topper">Features</span> #}
+            <h2 class="cs-title">Patios & Walkways</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a href="/patios-walkways" class="cs-button-solid">Learn More</a>
+        </div>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="../assets/images/fence-4.jpg">
+            <source media="(min-width: 601px)" srcset="../assets/images/fence-4.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="../assets/images/fence-4.jpg" alt="grass" width="649" height="617">
+        </picture>
+    </div>
+        <a id="planting-edging"></a>
+</section>    
+
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-457" class="sbsr-2">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Planting & Edging</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in. Diam ut venenatis tellus in metus vulputate eu. Massa vitae tortor condimentum lacinia quis vel eros donec ac.
+            </p>
+            <a href="/planting-edging" class="cs-button-solid">Learn More</a>
+        </div>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="../assets/images/retaining-wall-5.jpg">
+            <source media="(min-width: 601px)" srcset="../assets/images/retaining-wall-5.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="../assets/images/retaining-wall-5.jpg" alt="grass" width="649" height="617">
+        </picture>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews-864">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Google Verified Reviews</h2>
+            {# <p class="cs-text">
+                Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit.
+            </p> #}
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture" aria-hidden="true">
+                        <img class="cs-profile" src="../assets/images/review-2.jpg" decoding="async" alt="profile" width="50" height="50">
+                    </picture>
+                    <span class="cs-name">
+                        Jen Smith
+                        <span class="cs-job">Patio & Walkway</span>
+                    </span>
+                </div>
+                <p class="cs-review">
+                    Curabitur vitae nunc sed velit dignissim sodales ut. Maecenas ultricies mi eget mauris pharetra et. Et ligula ullamcorper malesuada proin pellentesque diam volutpat commodo
+                </p>
+                <!--Stars-->
+                <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fstars.svg" decoding="async" alt="quote icon" width="108" height="16">
+                <span class="cs-desc">Google</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture" aria-hidden="true">
+                        <img class="cs-profile" src="../assets/images/review-1.jpg" decoding="async" alt="profile" width="50" height="50">
+                    </picture>
+                    <span class="cs-name">
+                        Mike Thomas
+                        <span class="cs-job">Retainer Wall</span>
+                    </span>
+                </div>
+                <p class="cs-review">
+                    Curabitur vitae nunc sed velit dignissim sodales ut. Maecenas ultricies mi eget mauris pharetra et. Et ligula ullamcorper malesuada proin pellentesque diam volutpat commodo. 
+                </p>
+                <!--Stars-->
+                <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fstars.svg" decoding="async" alt="quote icon" width="108" height="16">
+                <span class="cs-desc">Google</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture" aria-hidden="true">
+                        <img class="cs-profile" src="../assets/images/review-3.jpg" decoding="async" alt="profile" width="50" height="50">
+                    </picture>
+                    <span class="cs-name">
+                        Barbara Titus
+                        <span class="cs-job">Edging & Planting</span>
+                    </span>
+                </div>
+                <p class="cs-review">
+                    Curabitur vitae nunc sed velit dignissim sodales ut. Maecenas ultricies mi eget mauris pharetra et. Et ligula ullamcorper malesuada proin pellentesque diam volutpat commodo
+                </p>
+                <!--Stars-->
+                <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fstars.svg" decoding="async" alt="quote icon" width="108" height="16">
+                <span class="cs-desc">Google</span>
+            </li>
+        </ul>
+    </div>
+    <!--Top Left Quote-->
+    <img class="cs-quote1" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2FQuote.svg" decoding="async" alt="quote icon" width="194" height="160">
+    <!--Top Right Quote-->
+    <img class="cs-quote2" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2FQuote.svg" decoding="async" alt="quote icon" width="194" height="160">
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-326">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Our 10 Most Asked Questions</h2>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How do I get started?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you understand my vision? 
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Is there anything I can do to lower costs?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long will my project take?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Are you licensed and insured?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Do you offer a contract?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Do you offer warranties?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Who should I contact if I notice a problem?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Where do you source your plants?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Can you install outdoor lighting?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

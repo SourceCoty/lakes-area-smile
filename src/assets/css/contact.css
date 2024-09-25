@@ -65,7 +65,6 @@
   #cs-contact #cs-form input,
   #cs-contact #cs-form textarea {
     border: 1px solid #b4b2c7;
-    border-radius: 0.5rem;
     margin-top: 0.25rem;
     height: 4rem;
     width: 100%;
@@ -94,7 +93,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    border-radius: 0.5rem;
     height: 20rem;
     /* cuts off corners on img tag */
     overflow: hidden;
@@ -214,9 +212,6 @@
     width: 40%;
     /* prevents flexbox from squishing it */
     flex: none;
-  }
-  #cs-contact .cs-right-section:hover .cs-bg-picture {
-    transform: scale(1.1);
   }
   #cs-contact .cs-block {
     /* goes back to inline so it stays "in line" with the rest of the text */

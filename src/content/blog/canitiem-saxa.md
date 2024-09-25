@@ -1,13 +1,13 @@
 ---
-title: Canitiem Saxa
+title: 5 Things to Ask Your Landscaper Before Every Project
 url: canitiem-saxa
 description: Lorem markdownum trabeati dicere deus.
-author: Code Stitch
+author: Lakes Area Landscape
 date: 2023-06-08T15:28:08.486Z
 tags:
-    - post
-    - featured
-image: /assets/images/blog/landing.jpg
+  - post
+  - featured
+image: /assets/images/blog/walkway-1.jpg
 imageAlt: Kitchen
 ---
 

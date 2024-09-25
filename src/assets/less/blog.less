@@ -16,7 +16,7 @@
         z-index: 1;
         position: relative;
         display: inline-block;
-        border-radius: (4/16rem);
+        // border-radius: (4/16rem);
         margin: auto;
         background-color: var(--headerColor);
         min-width: (150/16rem);
@@ -41,7 +41,7 @@
             content: "";
             opacity: 0;
             border: 1px solid var(--headerColor);
-            border-radius: (4/16rem);
+            // border-radius: (4/16rem);
             background: #fff;
             height: 100%;
             width: 100%;
@@ -263,7 +263,7 @@
         .blog-mainImage {
             position: relative;
             display: block;
-            border-radius: (8/16em) (8/16em) 0 0;
+            // border-radius: (8/16em) (8/16em) 0 0;
             height: clamp(200px, 30vw, 400px);
             width: 100%;
             overflow: hidden;
@@ -280,7 +280,7 @@
 
         .article-group {
             border: 1px solid #ebebeb;
-            border-radius: 0 0 (8/16em) (8/16em);
+            // border-radius: 0 0 (8/16em) (8/16em);
             padding: clamp(30px, 5vw, 50px);
         }
 
@@ -343,9 +343,9 @@
             z-index: 1;
             position: relative;
             display: inline-block;
-            border-radius: (4/16rem);
+            // border-radius: (4/16rem);
             margin: auto;
-            background-color: var(--headerColor);
+            background-color: var(--primary);
             min-width: (150/16rem);
             /* prevents padding from adding to the width */
             box-sizing: border-box;
@@ -356,35 +356,17 @@
             line-height: clamp(2.875em, 5.5vw, 3.5em);
             font-weight: 700;
             color: #fff;
-            transition: color 0.3s;
+            transition: background-color 0.3s;
             text-align: center;
-
-            &:before {
-                z-index: -1;
-                z-index: -1;
-                position: absolute;
-                top: 0;
-                left: 0;
-                content: "";
-                opacity: 0;
-                border: 1px solid var(--headerColor);
-                border-radius: (4/16rem);
-                background: #fff;
-                height: 100%;
-                width: 100%;
-                box-sizing: border-box;
-                transition: opacity 0.3s;
-            }
-
+    
             &:hover {
-                color: var(--headerColor);
-                &:before {
-                    opacity: 1;
-                }
+                background-color: #967735;
+
             }
         }
     }
 }
+
 
 /* Mobile - 1024px */
 @media only screen and (min-width: 64rem) {
@@ -471,7 +453,7 @@
             justify-content: flex-start;
             align-items: center;
             border: 1px solid #ebebeb;
-            border-radius: (8/16em);
+            // border-radius: (8/16em);
             width: 100%;
             padding: (35/16em) (30/16em);
         }
@@ -489,7 +471,7 @@
                 position: relative;
                 content: "";
                 display: block;
-                border-radius: (4/16rem);
+                // border-radius: (4/16rem);
                 margin: (16/16rem) auto;
                 background: var(--headerColor);
                 height: 3px;
@@ -520,7 +502,7 @@
         .blog-featureImage {
             position: relative;
             display: block;
-            border-radius: 50%;
+            // border-radius: 50%;
             height: (60/16em);
             width: (60/16em);
             overflow: hidden;
@@ -576,7 +558,7 @@
         .blog-mainImage {
             position: relative;
             display: block;
-            border-radius: (8/16em);
+            // border-radius: (8/16em);
             margin-bottom: (50/16em);
             height: clamp(200px, 30vw, 400px);
             width: 100%;
@@ -627,7 +609,7 @@
         .blog-dot {
             display: block;
             border-radius: 50%;
-            background-color: #fe4f70;
+            background-color: var(--primary);
             height: 3px;
             width: 3px;
         }
@@ -710,7 +692,7 @@
 
             img {
                 display: block;
-                border-radius: (8/16rem);
+                // border-radius: (8/16rem);
                 margin: (16/16rem) 0;
                 height: auto;
                 width: 100%;

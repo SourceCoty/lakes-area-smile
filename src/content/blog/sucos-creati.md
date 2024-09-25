@@ -1,13 +1,13 @@
 ---
-title: Sucos Creati
+title: How to Make Your Vision a Reality
 url: sucos-creati
 description: Lorem markdownum Talia. Carinae equis.
-author: Code Stitch
+author: Lakes Area Landscape
 date: 2023-06-08T15:27:34.591Z
 tags:
-    - post
-image: /assets/images/blog/landing.jpg
-imageAlt: Kitchen
+  - post
+image: /assets/images/blog/house-1.webp
+imageAlt: How to Make Your Vision a Reality
 ---
 
 ## Hospes meus

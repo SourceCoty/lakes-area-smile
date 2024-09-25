@@ -1,13 +1,14 @@
 ---
-title: Acuti modo
+title: How To Choose the Perfect Fence for Your Backyard
 url: acuti-modo
-description: Lorem markdownum tardantis unam mitissima dissimulator inposuit   corpus sintque tura tremenda, nec coetum.
-author: Code Stitch
+description: Lorem markdownum tardantis unam mitissima dissimulator
+  inposuit   corpus sintque tura tremenda, nec coetum.
+author: "Lakes Area Landscape "
 date: 2023-06-08T15:26:46.705Z
 tags:
-    - post
-image: /assets/images/blog/landing.jpg
-imageAlt: Kitchen
+  - post
+image: /assets/images/blog/fence-3.jpg
+imageAlt: How To Choose the Perfect Fence for Your Backyard
 ---
 
 ## Lacerans aliter tetigit praeterea rite

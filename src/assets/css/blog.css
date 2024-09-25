@@ -13,7 +13,6 @@
     z-index: 1;
     position: relative;
     display: inline-block;
-    border-radius: 0.25rem;
     margin: auto;
     background-color: var(--headerColor);
     min-width: 9.375rem;
@@ -37,7 +36,6 @@
     content: "";
     opacity: 0;
     border: 1px solid var(--headerColor);
-    border-radius: 0.25rem;
     background: #fff;
     height: 100%;
     width: 100%;
@@ -233,7 +231,6 @@
   .recent-articles .blog-mainImage {
     position: relative;
     display: block;
-    border-radius: 0.5em 0.5em 0 0;
     height: clamp(200px, 30vw, 400px);
     width: 100%;
     overflow: hidden;
@@ -248,7 +245,6 @@
   }
   .recent-articles .article-group {
     border: 1px solid #ebebeb;
-    border-radius: 0 0 0.5em 0.5em;
     padding: clamp(30px, 5vw, 50px);
   }
   .recent-articles .blog-author-img {
@@ -303,9 +299,8 @@
     z-index: 1;
     position: relative;
     display: inline-block;
-    border-radius: 0.25rem;
     margin: auto;
-    background-color: var(--headerColor);
+    background-color: var(--primary);
     min-width: 9.375rem;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
@@ -316,29 +311,11 @@
     line-height: clamp(2.875em, 5.5vw, 3.5em);
     font-weight: 700;
     color: #fff;
-    transition: color 0.3s;
+    transition: background-color 0.3s;
     text-align: center;
   }
-  .recent-articles .blog-link:before {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    opacity: 0;
-    border: 1px solid var(--headerColor);
-    border-radius: 0.25rem;
-    background: #fff;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    transition: opacity 0.3s;
-  }
   .recent-articles .blog-link:hover {
-    color: var(--headerColor);
-  }
-  .recent-articles .blog-link:hover:before {
-    opacity: 1;
+    background-color: #967735;
   }
 }
 /* Mobile - 1024px */
@@ -406,7 +383,6 @@
     justify-content: flex-start;
     align-items: center;
     border: 1px solid #ebebeb;
-    border-radius: 0.5em;
     width: 100%;
     padding: 2.1875em 1.875em;
   }
@@ -423,7 +399,6 @@
     position: relative;
     content: "";
     display: block;
-    border-radius: 0.25rem;
     margin: 1rem auto;
     background: var(--headerColor);
     height: 3px;
@@ -449,7 +424,6 @@
   .blog-sidebar .blog-featureImage {
     position: relative;
     display: block;
-    border-radius: 50%;
     height: 3.75em;
     width: 3.75em;
     overflow: hidden;
@@ -499,7 +473,6 @@
   .blog-article .blog-mainImage {
     position: relative;
     display: block;
-    border-radius: 0.5em;
     margin-bottom: 3.125em;
     height: clamp(200px, 30vw, 400px);
     width: 100%;
@@ -544,7 +517,7 @@
   .blog-article .blog-dot {
     display: block;
     border-radius: 50%;
-    background-color: #fe4f70;
+    background-color: var(--primary);
     height: 3px;
     width: 3px;
   }
@@ -618,7 +591,6 @@
   }
   .blog-article #blog-content img {
     display: block;
-    border-radius: 0.5rem;
     margin: 1rem 0;
     height: auto;
     width: 100%;
