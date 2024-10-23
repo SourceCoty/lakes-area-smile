@@ -8,9 +8,9 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #60ccf5;
-        --primaryLight: #60ccf5;
-        --primaryDark: #51ade5;
+        --primary: #2E9CE0;
+        --primaryLight: #70c8ff;
+        --primaryDark: #0268a8;
         --secondary: #574419;
         --secondaryLight: #CBEAED;
         --headerColor: #4d4d4d;
@@ -67,7 +67,8 @@
         z-index: 1;
         position: relative;
         display: inline-block;
-        background: linear-gradient(#60ccf5, #327dac);
+        background: var(--primary);
+        // background: linear-gradient(#60ccf5, #327dac);
         color: white;
         width: auto;
         padding: 0 (30/16rem);
@@ -79,12 +80,12 @@
         border-radius: .25rem;
 
         // Transition Properties
-        transition: transform;
+        transition: background;
         // transition-delay: 0.1s;
         text-align: center;
 
         &:hover {
-            transform: scale(1.015); 
+            background: var(--primaryDark); 
         }
 
     }
@@ -780,34 +781,6 @@
                 color: var(--primaryDark);
             }
         }
-
-        .cs-button-solid {
-            font-size: (16/16rem);
-            font-weight: 700;
-            /* 46px - 56px */
-            line-height: clamp(2em, 5.5vw, 3em);
-            text-align: center;
-            text-decoration: none;
-            min-width: (150/16rem);
-            margin: 0;
-            /* prevents padding from adding to the width */
-            box-sizing: border-box;
-            padding: 0 (24/16rem);
-            color: var(--primary);
-            background: white;
-            border: 2px solid var(--primary);
-            border-radius: (10/16rem);
-            display: inline-block;
-            position: relative;
-            z-index: 1;
-            transition: transform;
-
-            &:hover {
-                border-color: var(--primaryDark);
-                color: var(--primaryDark);
-                transform: scale(1)
-            }
-        }
     }
 }
                                 
@@ -947,6 +920,10 @@
             color: var(--bodyTextColorWhite);
         }
 
+        .cs-topper {
+            color: var(--primaryLight);
+        }
+
         .cs-text {
             margin: 0 0 (32/16rem) 0;
             opacity: .8;
@@ -970,7 +947,7 @@
                 display: block;
                 height: 100%;
                 width: 100%;
-                background: #000;
+                background: #03355d;
                 opacity: 0.8;
                 top: 0;
                 left: 0;

@@ -25,6 +25,7 @@
     flex-wrap: wrap;
     /* 120px - 200px */
     gap: clamp(7.5rem, 15vw, 12.5rem);
+    margin-top: -6rem;
   }
   #hero-1839 .cs-content {
     text-align: center;
@@ -143,10 +144,10 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: var(--primary);
+    background: #03355d;
     /* prevents the cursor from interacting with it */
     pointer-events: none;
-    opacity: 0.2;
+    opacity: 0.8;
     display: block;
     position: absolute;
     top: 0;
